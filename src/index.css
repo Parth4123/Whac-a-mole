@@ -1,0 +1,35 @@
+
+.centerGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.mole{
+    background-image: url("../assets/images/mole.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
